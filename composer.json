@@ -3,14 +3,23 @@
     "description": "Netatmo Weather Station API client implementation - PHP SDK",
     "authors": [
         {
+            "name": "Netatmo",
+            "homepage": "https://github.com/Netatmo/Netatmo-API-PHP"
+        },
+        {
             "name": "MetNet",
             "email": "gephaz@metnet.hu"
         }
     ],
-    "minimum-stability": "stable",
+    "type": "library",
+    "keywords": ["netatmo", "sdk"],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Netatmo\\API\\PHP\\": "src"
         }
+    },
+    "require": {
+        "php": ">=5.3"
     }
 }
