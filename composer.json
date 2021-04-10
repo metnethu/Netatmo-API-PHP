@@ -16,10 +16,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Netatmo\\API\\PHP\\": "src"
+            "Netatmo\\": "src/Netatmo"
         }
     },
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-json": "*"
     }
 }
