@@ -1,0 +1,16 @@
+{
+    "name": "metnethu/netatmo-api",
+    "description": "Netatmo Weather Station API client implementation - PHP SDK",
+    "authors": [
+        {
+            "name": "MetNet",
+            "email": "gephaz@metnet.hu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Netatmo\\API\\PHP\\": "src"
+        }
+    }
+}
